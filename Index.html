@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SVG Fish Animation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <svg id="screen" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Kepala Ikan -->
+      <symbol id="Cabeza" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="20" fill="#FF4136"/>
+      </symbol>
+
+      <!-- Sirip -->
+      <symbol id="Aletas" viewBox="0 0 40 40">
+        <polygon points="0,20 40,0 40,40" fill="#7FDBFF"/>
+      </symbol>
+
+      <!-- Tulang Belakang -->
+      <symbol id="Espina" viewBox="0 0 20 10">
+        <rect x="0" y="0" width="20" height="10" fill="#AAAAAA"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
